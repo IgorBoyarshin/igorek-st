@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "SauceCodePro Nerd Font Mono:pixelsize=14:antialias=true:autohint=true";
+static char *font = "SauceCodePro Nerd Font Mono:pixelsize=14:antialias=true:style=Medium:autohint=true";
 static int borderpx = 0;
 
 /*
@@ -90,7 +90,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-unsigned int alpha = 0xcc;
+unsigned int alpha = 0xbb;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
